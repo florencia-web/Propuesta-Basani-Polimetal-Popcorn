@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caso de éxito Polimetal × Basani — Propuesta de contenidos | Popcorn</title>
+<meta name="description" content="Industrializar una idea, construir un negocio. Propuesta de contenidos del caso de éxito Polimetal × Basani, desarrollada por Popcorn.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#0A0A0A;
+  --black-2:#111114;
+  --purple:#6B21D6;
+  --purple-deep:#2A0F5C;
+  --purple-soft:#3D1D7A;
+  --cyan:#5EEAD4;
+  --cyan-deep:#0FB39A;
+  --white:#FFFFFF;
+  --gray-100:#F5F5F7;
+  --gray-300:#C4C4CF;
+  --gray-500:#8E8E9C;
+  --gray-700:#3A3A44;
+  --gray-900:#1A1A20;
+  --red:#EF4444;
+  --orange:#F59E0B;
+  --green:#10B981;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+  background:var(--black);
+  color:var(--white);
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+.serif-italic{font-family:'Instrument Serif',serif;font-style:normal;font-weight:400;color:var(--cyan)}
+.container{max-width:1200px;margin:0 auto;padding:0 32px}
+.narrow{max-width:920px}
+.eyebrow{
+  font-size:12px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--cyan);margin-bottom:24px;display:inline-block;
+}
+h1,h2,h3,h4{font-weight:800;letter-spacing:-0.02em;line-height:1.05}
+h1{font-size:clamp(40px,5.5vw,72px)}
+h2{font-size:clamp(28px,3.6vw,46px);margin-bottom:18px}
+h3{font-size:18px;font-weight:700;letter-spacing:-0.01em;line-height:1.3}
+p{color:var(--gray-300);font-size:15px;line-height:1.7}
+a{color:inherit;text-decoration:none}
+.lead{font-size:18px;line-height:1.7;color:var(--gray-300)}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:100;background:rgba(10,10,10,0.85);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,0.06)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:16px 32px;max-width:1400px;margin:0 auto}
+.logo{width:72px;height:72px;flex-shrink:0;display:block;background-image:url("data:image/png;base64,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");background-size:contain;background-repeat:no-repeat;background-position:center}
+.nav-links{display:flex;gap:28px}
+.nav-links a{font-size:13px;color:var(--gray-300);font-weight:500;transition:color 0.2s}
+.nav-links a:hover{color:var(--cyan)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:999px;font-weight:600;font-size:14px;border:1px solid transparent;cursor:pointer;transition:transform 0.15s,background 0.2s}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:var(--purple);color:var(--white)}
+.btn-primary:hover{background:#7d2ef0}
+.btn-cyan{background:var(--cyan);color:var(--black)}
+.btn-cyan:hover{background:#7df3df}
+.btn-ghost{background:transparent;border-color:rgba(255,255,255,0.2);color:var(--white)}
+.btn-ghost:hover{border-color:var(--white)}
+@media(max-width:980px){.nav-links{display:none}}
+
+/* HERO */
+.hero{position:relative;background:linear-gradient(180deg,var(--purple-deep) 0%,var(--purple) 100%);padding:120px 0 110px;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-100px;top:50%;transform:translateY(-50%);width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(94,234,212,0.15) 0%,transparent 70%);pointer-events:none}
+.hero-rings{position:absolute;right:60px;top:50%;transform:translateY(-50%);width:520px;height:520px;opacity:0.25;pointer-events:none}
+.hero-rings::before,.hero-rings::after{content:"";position:absolute;inset:0;border:1px solid rgba(255,255,255,0.4);border-radius:50%}
+.hero-rings::after{inset:80px}
+.hero-rings .ring-3{position:absolute;inset:160px;border:1px solid rgba(255,255,255,0.4);border-radius:50%}
+.hero-rings .ring-dot{position:absolute;left:50%;top:50%;width:80px;height:80px;border-radius:50%;background:rgba(94,234,212,0.4);transform:translate(-50%,-50%);filter:blur(2px)}
+.hero-content{position:relative;z-index:1;max-width:860px;margin:0 auto;text-align:center}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:8px 18px;border-radius:999px;background:rgba(94,234,212,0.12);border:1px solid rgba(94,234,212,0.3);font-size:11px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--cyan);margin-bottom:36px}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--cyan)}
+.hero h1{margin-bottom:24px;color:var(--white)}
+.hero h1 .serif-italic{font-size:1.08em;line-height:1;text-shadow:0 2px 24px rgba(94,234,212,0.35)}
+.hero-bajada{font-size:17px;color:rgba(255,255,255,0.85);max-width:620px;margin:0 auto 32px;line-height:1.7}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+
+/* META */
+.meta{background:linear-gradient(180deg,var(--purple) 0%,#3a1399 100%);padding:36px 0;border-top:1px solid rgba(255,255,255,0.08)}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:28px}
+.meta-item .meta-label{font-size:10px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:8px}
+.meta-item .meta-value{font-size:14px;font-weight:600;color:var(--white)}
+
+/* SECTIONS */
+.section{padding:88px 0}
+.section-dark{background:var(--black)}
+.section-darker{background-color:var(--black-2);background-image:radial-gradient(circle at 20% 10%,rgba(107,33,214,0.08) 0%,transparent 40%),linear-gradient(rgba(255,255,255,0.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.035) 1px,transparent 1px);background-size:auto,56px 56px,56px 56px}
+.section-purple{background:linear-gradient(180deg,var(--purple) 0%,var(--purple-soft) 100%)}
+.section-purple-deep{background-color:var(--purple-deep);background-image:linear-gradient(rgba(255,255,255,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.04) 1px,transparent 1px);background-size:56px 56px,56px 56px}
+.section-light{background:var(--gray-100);color:var(--black)}
+.section-light p{color:var(--gray-700)}
+.section-light h2,.section-light h3,.section-light h4{color:var(--purple-deep)}
+.section-light .eyebrow{color:var(--purple)}
+.section-header{max-width:680px;margin-bottom:48px}
+.section-header h2{color:inherit}
+.section-header p{font-size:16px;margin-top:8px}
+.sec-index{font-size:13px;font-weight:700;letter-spacing:0.18em;color:rgba(255,255,255,0.35);display:block;margin-bottom:14px}
+.section-light .sec-index{color:rgba(42,15,92,0.35)}
+
+/* generic cards */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:860px){.grid-2,.grid-3{grid-template-columns:1fr}}
+.card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:30px}
+.card h3{color:var(--white);margin-bottom:10px}
+.card .ic{font-size:24px;display:block;margin-bottom:14px}
+.card-light{background:var(--white);border:1px solid #E5E5EA;border-radius:20px;padding:30px}
+.card-light h3{color:var(--purple-deep);margin-bottom:10px}
+.card-light p{color:var(--gray-700)}
+
+.callout{background:linear-gradient(135deg,var(--purple-deep) 0%,var(--purple) 100%);color:var(--white);padding:36px 40px;border-radius:24px;margin:8px 0 8px;font-size:19px;line-height:1.6}
+.callout strong{color:var(--cyan);font-weight:700}
+.callout p{color:rgba(255,255,255,0.92)}
+
+/* taglines */
+.tag-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:8px}
+@media(max-width:860px){.tag-grid{grid-template-columns:1fr}}
+.tag-card{border-radius:20px;padding:30px;border:1px solid rgba(255,255,255,0.1)}
+.tag-card .tag-type{font-size:11px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--cyan);margin-bottom:16px;display:block}
+.tag-card .tag-line{font-family:'Instrument Serif',serif;font-style:normal;font-size:24px;line-height:1.25;color:var(--white)}
+.tag-1{background:linear-gradient(135deg,var(--purple-soft),var(--purple))}
+.tag-2{background:#0a3833;border-color:rgba(94,234,212,0.3)}
+.tag-3{background:#1a0a2e;border-color:rgba(167,139,250,0.3)}
+
+/* arco / actos */
+.actos{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,0.1)}
+@media(max-width:860px){.actos{grid-template-columns:1fr}}
+.acto{padding:34px;border-right:1px solid rgba(255,255,255,0.1);background:rgba(255,255,255,0.02)}
+.acto:last-child{border-right:none}
+.acto-num{font-size:12px;font-weight:700;letter-spacing:0.18em;color:var(--cyan);margin-bottom:8px;display:block}
+.acto h4{font-size:22px;color:var(--white);margin-bottom:16px}
+.acto p{font-size:14px;margin-bottom:12px}
+.acto .q{color:var(--cyan);font-style:normal;font-family:'Instrument Serif',serif;font-size:17px;line-height:1.3}
+
+/* audiencia split */
+.aud-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+@media(max-width:860px){.aud-grid{grid-template-columns:1fr}}
+.aud-card{border-radius:20px;padding:32px;border:1px solid rgba(255,255,255,0.1)}
+.aud-card.li{background:linear-gradient(135deg,#0a2540,#0d3a66)}
+.aud-card.ig{background:linear-gradient(135deg,#3d1d5c,#7a2f8a)}
+.aud-chan{font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--cyan);margin-bottom:18px;display:flex;align-items:center;gap:10px}
+.aud-card h4{font-size:16px;color:#fff;margin:18px 0 6px}
+.aud-card p{font-size:14px;color:rgba(255,255,255,0.85)}
+.aud-tono{margin-top:20px;padding:14px 18px;border-radius:12px;background:rgba(0,0,0,0.25);font-size:13px;color:#fff}
+.aud-tono strong{color:var(--cyan)}
+
+/* objetivos list */
+.obj-list{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media(max-width:860px){.obj-list{grid-template-columns:1fr}}
+.obj-item{display:flex;gap:16px;align-items:flex-start;padding:20px 22px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:16px}
+.obj-item .n{width:34px;height:34px;border-radius:10px;background:var(--purple);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0}
+.obj-item p{font-size:14px;color:var(--gray-300)}
+.obj-item strong{color:#fff;display:block;margin-bottom:2px;font-size:14px}
+
+/* piezas */
+.pieza{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:0;overflow:hidden;margin-bottom:28px}
+.pieza-head{display:flex;align-items:center;gap:20px;padding:28px 34px;background:linear-gradient(135deg,rgba(107,33,214,0.25),rgba(94,234,212,0.06));border-bottom:1px solid rgba(255,255,255,0.08)}
+.pieza-num{width:54px;height:54px;border-radius:14px;background:var(--purple);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;color:#fff;flex-shrink:0}
+.pieza-head h3{font-size:22px;color:#fff}
+.pieza-head .chan{font-size:11px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--cyan);margin-top:4px;display:block}
+.pieza-body{padding:30px 34px}
+.pieza-row{display:grid;grid-template-columns:160px 1fr;gap:24px;padding:18px 0;border-bottom:1px solid rgba(255,255,255,0.07)}
+.pieza-row:last-child{border-bottom:none}
+@media(max-width:720px){.pieza-row{grid-template-columns:1fr;gap:6px}}
+.pieza-row .lbl{font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--cyan);padding-top:3px}
+.pieza-row .val{font-size:15px;color:var(--gray-300);line-height:1.7}
+.pieza-row .val strong{color:#fff}
+.guion{list-style:none;counter-reset:g}
+.guion li{position:relative;padding:10px 0 10px 56px;border-bottom:1px solid rgba(255,255,255,0.06);font-size:14px;color:var(--gray-300);line-height:1.6}
+.guion li:last-child{border-bottom:none}
+.guion li::before{counter-increment:g;content:counter(g,decimal-leading-zero);position:absolute;left:0;top:9px;font-size:12px;font-weight:700;color:var(--cyan);background:rgba(94,234,212,0.1);border:1px solid rgba(94,234,212,0.25);border-radius:8px;width:38px;height:26px;display:flex;align-items:center;justify-content:center}
+.guion li .t{color:var(--gray-500);font-weight:600;font-size:12px;margin-left:8px}
+.guion li b{color:#fff;font-weight:600}
+.copybox{background:rgba(0,0,0,0.3);border:1px dashed rgba(94,234,212,0.3);border-radius:14px;padding:22px 24px;font-size:14px;color:var(--gray-300);line-height:1.7;white-space:pre-line}
+.copybox .hash{color:var(--cyan);font-size:12px;display:block;margin-top:12px;word-spacing:4px}
+.tip{margin-top:14px;font-size:13px;color:var(--cyan);background:rgba(94,234,212,0.07);border-left:2px solid var(--cyan);padding:10px 16px;border-radius:0 8px 8px 0}
+
+/* calendario */
+.cal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+@media(max-width:980px){.cal-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.cal-grid{grid-template-columns:1fr}}
+.cal-week{background:var(--white);border:1px solid #E5E5EA;border-radius:18px;padding:24px;position:relative;overflow:hidden}
+.cal-week::before{content:"";position:absolute;left:0;top:0;width:100%;height:5px;background:var(--purple)}
+.cal-week.w2::before{background:var(--cyan-deep)}
+.cal-week.w3::before{background:var(--orange)}
+.cal-week.w4::before{background:var(--green)}
+.cal-week .wk{font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--gray-500)}
+.cal-week .fase{font-size:19px;font-weight:800;color:var(--purple-deep);margin:6px 0 14px;letter-spacing:-0.02em}
+.cal-week .pieza-t{font-size:15px;font-weight:700;color:var(--purple-deep);margin-bottom:4px}
+.cal-week .chan-t{font-size:12px;font-weight:600;color:var(--cyan-deep);margin-bottom:12px}
+.cal-week p{font-size:13px;color:var(--gray-700);line-height:1.55}
+
+/* recomendaciones */
+.rec-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+@media(max-width:860px){.rec-grid{grid-template-columns:1fr}}
+.rec-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:18px;padding:28px}
+.rec-card h4{color:#fff;font-size:16px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.rec-card ul{list-style:none}
+.rec-card li{font-size:14px;color:var(--gray-300);padding:7px 0 7px 22px;position:relative;line-height:1.55}
+.rec-card li::before{content:"";position:absolute;left:0;top:14px;width:7px;height:7px;border-radius:50%;background:var(--cyan)}
+
+/* prueba social */
+.ps-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+@media(max-width:860px){.ps-grid{grid-template-columns:1fr}}
+.quote-card{background:linear-gradient(135deg,var(--purple-deep),var(--purple));border-radius:20px;padding:36px;position:relative}
+.quote-card .mark{font-family:'Instrument Serif',serif;font-size:64px;line-height:0.6;color:var(--cyan);opacity:0.5}
+.quote-card .q{font-family:'Instrument Serif',serif;font-style:normal;font-size:24px;color:#fff;line-height:1.3;margin:8px 0 16px}
+.quote-card .a{font-size:13px;color:rgba(255,255,255,0.7)}
+
+/* cierre */
+.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:8px}
+@media(max-width:860px){.impact-grid{grid-template-columns:1fr 1fr}}
+.impact{border-radius:18px;padding:26px;border:1px solid rgba(255,255,255,0.1)}
+.impact .ic{font-size:22px;display:block;margin-bottom:12px}
+.impact h4{font-size:15px;color:#fff;margin-bottom:6px}
+.impact p{font-size:13px;color:rgba(255,255,255,0.8)}
+.impact.i1{background:linear-gradient(135deg,var(--purple-soft),var(--purple))}
+.impact.i2{background:#0a3833;border-color:rgba(94,234,212,0.3)}
+.impact.i3{background:var(--black-2)}
+.impact.i4{background:#1a0a2e;border-color:rgba(167,139,250,0.3)}
+
+/* FOOTER */
+.footer{background:var(--black);padding:48px 0 32px;border-top:1px solid rgba(255,255,255,0.06)}
+.footer-grid{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:center}
+@media(max-width:768px){.footer-grid{grid-template-columns:1fr}}
+.footer-logo p{font-size:13px;color:var(--gray-500);margin-top:8px;max-width:360px}
+.footer-contact .label{font-size:11px;color:var(--gray-500);font-weight:600;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px}
+.footer-contact .email{color:var(--white);font-weight:500;font-size:15px}
+.footer-contact .who{font-size:12px;color:var(--gray-500);margin-top:2px}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="nav-inner">
+    <div class="logo" role="img" aria-label="Popcorn"></div>
+    <nav class="nav-links">
+      <a href="#intro">Introducción</a>
+      <a href="#insight">Insight</a>
+      <a href="#narrativa">Narrativa</a>
+      <a href="#estrategia">Estrategia</a>
+      <a href="#piezas">Piezas</a>
+      <a href="#plan">Plan</a>
+      <a href="#recomendaciones">Creatividad</a>
+    </nav>
+    <a href="#cierre" class="btn btn-primary">Cierre</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-rings"><div class="ring-3"></div><div class="ring-dot"></div></div>
+  <div class="container hero-content">
+    <div class="pill">Caso de éxito · Propuesta de contenidos · Confidencial</div>
+    <h1>Industrializar una idea,<br>construir un <span class="serif-italic">negocio.</span></h1>
+    <p class="hero-bajada">Una propuesta de contenidos para contar el caso Polimetal × Basani. No la historia de un proveedor y un cliente: la historia de dos empresas que trabajaron juntas para crecer.</p>
+    <div class="hero-cta">
+      <a href="#narrativa" class="btn btn-cyan">Ver la narrativa &rarr;</a>
+      <a href="#piezas" class="btn btn-ghost">Ver las piezas</a>
+    </div>
+  </div>
+</section>
+
+<!-- META -->
+<section class="meta">
+  <div class="container">
+    <div class="meta-grid">
+      <div class="meta-item"><div class="meta-label">Preparada para</div><div class="meta-value">Polimetal</div></div>
+      <div class="meta-item"><div class="meta-label">Preparada por</div><div class="meta-value">Popcorn</div></div>
+      <div class="meta-item"><div class="meta-label">Proyecto</div><div class="meta-value">Caso de éxito Polimetal × Basani</div></div>
+      <div class="meta-item"><div class="meta-label">Canales</div><div class="meta-value">LinkedIn + Instagram</div></div>
+      <div class="meta-item"><div class="meta-label">Ventana</div><div class="meta-value">4 semanas de publicación</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTRODUCCIÓN ============ -->
+<section id="intro" class="section section-darker">
+  <div class="container">
+    <div class="section-header">
+      <span class="sec-index">01 — Introducción</span>
+      <span class="eyebrow">Contexto del proyecto</span>
+      <h2>De un desafío de planta<br>a una historia que vende.</h2>
+      <p class="lead">Polimetal y Basani construyeron, a lo largo de años de trabajo conjunto, uno de esos casos que rara vez se cuentan bien: una alianza industrial que transformó un problema de fabricación en capacidad real de crecimiento. Esta propuesta convierte ese recorrido en una pieza de comunicación con peso estratégico.</p>
+    </div>
+
+    <div class="grid-2" style="margin-bottom:32px">
+      <div class="card">
+        <span class="ic">🏭</span>
+        <h3>Polimetal</h3>
+        <p>Empresa metalmecánica especializada en procesos industriales de precisión —corte láser, plegado CNC, corte y perforación de tubos, diseño de piezas para producción a gran escala. No opera como proveedor de insumos: se involucra en el desarrollo, resuelve la ingeniería de fabricación y acompaña la escalabilidad del proyecto del cliente.</p>
+      </div>
+      <div class="card">
+        <span class="ic">📦</span>
+        <h3>Basani</h3>
+        <p>Empresa que desarrolla módulos de oficinas móviles industrializados. Tenía el producto diseñado y la visión de negocio clara, pero enfrentaba un techo: no podía producir esos módulos de forma escalable, repetible y rentable. Necesitaba un socio capaz de industrializar la idea.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p><strong>Objetivo general de la estrategia:</strong> posicionar a Polimetal como <strong>socio estratégico de la industria</strong> —y no como un proveedor más— demostrando, a través de una historia real y verificable, que cuando una empresa metalmecánica se involucra en el desafío del cliente, el resultado no son piezas: es capacidad de crecimiento.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSIGHT ESTRATÉGICO ============ -->
+<section id="insight" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="sec-index">02 — Insight estratégico</span>
+      <span class="eyebrow">Por qué este caso, por qué ahora</span>
+      <h2>El sector compra confianza,<br>pero le cuentan <span class="serif-italic">capacidades.</span></h2>
+      <p class="lead">La comunicación industrial argentina vive saturada de fichas técnicas: máquinas, tolerancias, certificaciones, fotos de planta sin relato. Todo el mundo dice "calidad y compromiso". Nadie demuestra impacto. Ahí está la oportunidad.</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="card">
+        <span class="ic">🔎</span>
+        <h3>Problema detectado</h3>
+        <p>Polimetal tiene una capacidad técnica enorme y un caso de impacto real, pero —como gran parte del sector metalmecánico— comunica con lógica de catálogo. El valor diferencial (resolver lo que nadie más puede) queda invisible detrás de la lista de procesos. El prospecto no se identifica con una máquina: se identifica con un problema.</p>
+      </div>
+      <div class="card">
+        <span class="ic">💡</span>
+        <h3>Oportunidad de comunicación</h3>
+        <p>Existe un caso de éxito con narrativa, conflicto, evolución y resultado: Basani. Contarlo como <strong>historia de alianza</strong> —no como portfolio de trabajos— permite que cada director industrial que vea el contenido piense "esto me pasa a mí" y proyecte a Polimetal como la salida. Es prueba social y posicionamiento en una sola jugada.</p>
+      </div>
+      <div class="card">
+        <span class="ic">⚙️</span>
+        <h3>Diferencial del caso</h3>
+        <p>No es un testimonio de satisfacción. Es la demostración de un modelo de trabajo: desarrollo conjunto, prototipos, iteración, pre-series y producción sostenida. La historia prueba que Polimetal no entrega un servicio puntual —se vuelve parte de la capacidad productiva del cliente. Eso es lo que ningún competidor está contando.</p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:32px">
+      <p>El insight que ordena toda la estrategia: <strong>en B2B industrial no se elige al que tiene la mejor máquina; se elige al que entiende el problema.</strong> Por eso no mostramos lo que Polimetal fabrica. Mostramos cómo piensa.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NARRATIVA CENTRAL ============ -->
+<section id="narrativa" class="section section-purple">
+  <div class="container">
+    <div class="section-header">
+      <span class="sec-index" style="color:rgba(255,255,255,0.45)">03 — Narrativa central</span>
+      <span class="eyebrow" style="color:rgba(255,255,255,0.85)">El corazón del caso</span>
+      <h2 style="color:#fff">No es una historia de proveedor<br>y cliente.</h2>
+      <p style="color:rgba(255,255,255,0.9);font-size:17px">Es la historia de dos empresas que se necesitaban mutuamente para crecer. Polimetal no vendió servicios: resolvió un problema que nadie más podía resolver.</p>
+    </div>
+
+    <div class="grid-2" style="margin-bottom:28px">
+      <div class="card" style="background:rgba(0,0,0,0.22);border-color:rgba(255,255,255,0.15)">
+        <span class="eyebrow">Premisa diferencial</span>
+        <p style="color:#fff;font-size:16px;line-height:1.7">Toda la pieza se construye sobre una decisión narrativa: corremos a Polimetal del lugar de "el que fabrica" y lo ubicamos como <strong style="color:var(--cyan)">el que hace posible el crecimiento del otro</strong>. El protagonista emocional es la alianza; Polimetal es el socio que la vuelve real.</p>
+      </div>
+      <div class="card" style="background:rgba(0,0,0,0.22);border-color:rgba(255,255,255,0.15)">
+        <span class="eyebrow">Mensaje central</span>
+        <p style="color:#fff;font-family:'Instrument Serif',serif;font-style:normal;font-size:21px;line-height:1.35">"El desafío no era diseñar el producto. El desafío era fabricar cientos de veces el mismo producto con calidad, precisión y rentabilidad."</p>
+      </div>
+    </div>
+
+    <span class="eyebrow" style="color:rgba(255,255,255,0.85);margin-top:8px">Taglines sugeridos</span>
+    <div class="tag-grid">
+      <div class="tag-card tag-1">
+        <span class="tag-type">Fuerte</span>
+        <p class="tag-line">"Industrializar una idea, construir un negocio."</p>
+      </div>
+      <div class="tag-card tag-2">
+        <span class="tag-type">Emocional</span>
+        <p class="tag-line">"Detrás de cada proyecto que crece, hay una alianza que lo hace posible."</p>
+      </div>
+      <div class="tag-card tag-3">
+        <span class="tag-type">Corporativa</span>
+        <p class="tag-line">"Transformamos desafíos en oportunidades de crecimiento."</p>
+      </div>
+    </div>
+
+    <span class="eyebrow" style="color:rgba(255,255,255,0.85);margin-top:48px">Arco narrativo — 3 actos</span>
+    <div class="actos">
+      <div class="acto">
+        <span class="acto-num">Acto 1</span>
+        <h4>El desafío</h4>
+        <p style="color:rgba(255,255,255,0.85)">Basani quiere desarrollar módulos de oficinas móviles industrializados. El producto existe; la producción escalable todavía no. Hay obstáculos técnicos que frenan el crecimiento.</p>
+        <p class="q">¿Cómo convertir una buena idea en un proceso industrial?</p>
+      </div>
+      <div class="acto">
+        <span class="acto-num">Acto 2</span>
+        <h4>La búsqueda de la solución</h4>
+        <p style="color:rgba(255,255,255,0.85)">Llega la recomendación. Aparece Polimetal. Empiezan reuniones técnicas, prototipos, pruebas y ajustes. No hay solución inmediata: hay desarrollo conjunto.</p>
+        <p class="q">La tensión está en encontrar la forma correcta de fabricar.</p>
+      </div>
+      <div class="acto">
+        <span class="acto-num">Acto 3</span>
+        <h4>El crecimiento</h4>
+        <p style="color:rgba(255,255,255,0.85)">La solución se valida. Llegan las pre-series, después la producción sostenida. La relación evoluciona.</p>
+        <p class="q">El resultado no son piezas. Es capacidad de crecimiento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ESTRATEGIA DE CONTENIDOS ============ -->
+<section id="estrategia" class="section section-darker">
+  <div class="container">
+    <div class="section-header">
+      <span class="sec-index">04 — Estrategia de contenidos</span>
+      <span class="eyebrow">Cómo bajamos la narrativa a cada canal</span>
+      <h2>Una historia, dos lecturas,<br>cada canal con un rol.</h2>
+      <p class="lead">El mismo caso se cuenta en clave emocional en Instagram y en clave racional en LinkedIn. No es repetir contenido: es modular un relato según a quién le habla y qué tiene que provocar.</p>
+    </div>
+
+    <span class="eyebrow">Objetivos de la estrategia</span>
+    <div class="obj-list" style="margin-bottom:48px">
+      <div class="obj-item"><div class="n">01</div><p><strong>Posicionamiento</strong>Instalar a Polimetal como socio estratégico de la industria, no como proveedor transaccional.</p></div>
+      <div class="obj-item"><div class="n">02</div><p><strong>Autoridad industrial</strong>Demostrar capacidad técnica real (láser, plegado CNC, corte de tubos) sin caer en contenido excesivamente técnico.</p></div>
+      <div class="obj-item"><div class="n">03</div><p><strong>Prueba social</strong>Mostrar un cliente real que creció gracias a la alianza, con su propia voz en el cierre.</p></div>
+      <div class="obj-item"><div class="n">04</div><p><strong>Generación de identificación</strong>Que el prospecto reconozca su propio problema en el desafío de Basani.</p></div>
+      <div class="obj-item"><div class="n">05</div><p><strong>Confianza</strong>Probar el modelo de trabajo (desarrollo conjunto, iteración, sostenibilidad) que reduce el riesgo percibido de elegir a Polimetal.</p></div>
+      <div class="obj-item"><div class="n">06</div><p><strong>Alcance orgánico cualificado</strong>Activar conversación en la comunidad industrial y multiplicar con el repost de Basani.</p></div>
+    </div>
+
+    <span class="eyebrow">Audiencias y rol de cada canal</span>
+    <div class="aud-grid">
+      <div class="aud-card li">
+        <span class="aud-chan">▸ LinkedIn — Decisión</span>
+        <h4>Audiencia</h4>
+        <p>Directores industriales, dueños de pymes metalúrgicas, gerentes de producción. Potenciales clientes que se identifican con el problema de Basani y tienen poder de compra.</p>
+        <h4>Rol del canal</h4>
+        <p>Canal de autoridad y conversión. Construye el caso de negocio: por qué trabajar con Polimetal reduce riesgo y habilita crecimiento. Es donde el caso "cierra" racionalmente.</p>
+        <div class="aud-tono">Tono: <strong>técnico, directo, orientado al resultado.</strong></div>
+      </div>
+      <div class="aud-card ig">
+        <span class="aud-chan">▸ Instagram — Identificación</span>
+        <h4>Audiencia</h4>
+        <p>Comunidad industrial argentina, proveedores, técnicos del sector. Audiencia más amplia que valida marca y amplifica.</p>
+        <h4>Rol del canal</h4>
+        <p>Canal de prueba social y posicionamiento de marca. Genera el gancho emocional, humaniza la alianza y pone en valor el proceso. Es donde el caso "engancha".</p>
+        <div class="aud-tono">Tono: <strong>cercano, visual, con énfasis en el proceso y la alianza.</strong></div>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:32px">
+      <p>El cruce de canales es deliberado: <strong>Instagram genera identificación</strong> (esto me pasa a mí) y <strong>LinkedIn habilita la decisión</strong> (así se resuelve, con esta gente). El testimonio final cierra ambos circuitos con la voz del propio cliente.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROPUESTA DE PIEZAS ============ -->
+<section id="piezas" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="sec-index">05 — Propuesta de piezas</span>
+      <span class="eyebrow">El sistema de contenidos completo</span>
+      <h2>Siete piezas que cuentan<br>una sola historia.</h2>
+      <p class="lead">Cada pieza tiene un trabajo específico dentro del arco. Juntas construyen el caso de principio a fin: del gancho emocional al cierre con la voz del cliente. Para cada una definimos objetivo, concepto creativo, guion, formato y recomendaciones visuales.</p>
+    </div>
+
+    <!-- PIEZA 1 — REEL PRINCIPAL -->
+    <div class="pieza">
+      <div class="pieza-head">
+        <div class="pieza-num">01</div>
+        <div><h3>Reel principal — La historia completa</h3><span class="chan">Reel A · Instagram (+ LinkedIn) · 45–60 seg</span></div>
+      </div>
+      <div class="pieza-body">
+        <div class="pieza-row"><div class="lbl">Objetivo</div><div class="val">Lanzar el caso con máximo impacto emocional. Es la pieza ancla: presenta la alianza completa, genera identificación inmediata y para el scroll con tensión narrativa, no con un hook genérico.</div></div>
+        <div class="pieza-row"><div class="lbl">Concepto creativo</div><div class="val"><strong>"De una recomendación a una alianza."</strong> Ritmo lento que se acelera: arranca con el gancho emocional, sube por el proceso técnico y cierra con impacto. La pieza nunca muestra a Polimetal "vendiendo": lo muestra resolviendo junto a Basani.</div></div>
+        <div class="pieza-row"><div class="lbl">Formato</div><div class="val">Reel vertical 9:16, 45–60 seg. Mix de stock industrial + material de planta real. Música in crescendo. Placas de texto con tipografía de marca. Apertura y cierre con logos Basani + Polimetal.</div></div>
+        <div class="pieza-row">
+          <div class="lbl">Guion clip a clip</div>
+          <div class="val">
+            <ol class="guion">
+              <li><b>Apertura (5s).</b> Placa: "Industrializar una idea es construir un negocio." Logos Basani + Polimetal. <span class="t">— arranque de marca</span></li>
+              <li><b>Todo empezó con una recomendación.</b> <span class="t">3–4s · stock fábrica exterior · gancho para detener el scroll</span></li>
+              <li><b>El desafío no era diseñarlo. Era producirlo eficientemente.</b> <span class="t">4s · proceso / medición · entrada en 2 tiempos</span></li>
+              <li><b>En 2022 conocimos el proyecto de Basani: crear módulos de oficinas móviles industrializados.</b> <span class="t">4s · imágenes módulos · contexto del cliente</span></li>
+              <li><b>Había un desafío: resolver procesos complejos de ensamblaje y fabricación.</b> <span class="t">5s · videos de planta · tensión narrativa</span></li>
+              <li><b>Plegados especiales. Tubos cortados y perforados. Diseños para producción a gran escala.</b> <span class="t">5s · corte láser / plegado · cada ítem entra solo</span></li>
+              <li><b>Nuestro equipo técnico tomó el desafío y comenzó el desarrollo de prototipos.</b> <span class="t">4s · equipo técnico · Polimetal protagonista activo</span></li>
+              <li><b>Después de pruebas, ajustes y validaciones… llegó la solución.</b> <span class="t">4s · proceso iterativo · ritmo más ágil</span></li>
+              <li><b>Así comenzaron las primeras pre-series. Y luego, la producción sostenida.</b> <span class="t">3s · producción en línea · tono de logro</span></li>
+              <li><b>Hoy, múltiples procesos de Polimetal son parte de la fabricación de Basani.</b> <span class="t">4s · mix procesos integrados · resultado concreto</span></li>
+              <li><b>Lo más importante no fueron los procesos. Fue el crecimiento en conjunto.</b> <span class="t">3s · stock colaborativo · giro emocional</span></li>
+              <li><b>Grandes alianzas industriales construyen grandes proyectos.</b> <span class="t">3s · placa de cierre · ambos logos</span></li>
+            </ol>
+          </div>
+        </div>
+        <div class="pieza-row"><div class="lbl">Copy publicación</div><div class="val">
+          <div class="copybox">Algunos proyectos empiezan con una idea. Otros, con una alianza.
+
+En 2022 comenzamos a trabajar junto a Basani para resolver un desafío técnico complejo: desarrollar módulos industrializados preparados para producir a gran escala.
+
+A través del trabajo colaborativo, el desarrollo técnico y la integración de múltiples procesos, logramos acompañar el crecimiento de un proyecto que hoy sigue expandiéndose.
+<span class="hash">#Polimetal #IndustriaArgentina #MetalMecánica #CorteLáser #FabricaciónIndustrial #ProducciónIndustrial #IndustriaNacional</span></div>
+          <div class="tip">Tip: primera línea sin hook genérico — que el texto entre directo con la tensión narrativa para parar el scroll.</div>
+        </div></div>
+        <div class="pieza-row"><div class="lbl">Recomendaciones visuales</div><div class="val">Paleta cálida industrial atravesada por acentos de marca. Priorizar planos reales de planta sobre stock cuando estén disponibles. Que cada proceso (láser, plegado, tubos) tenga su plano-héroe. Cierre con respiración: placa limpia, ambos logos, silencio antes del logro.</div></div>
+      </div>
+    </div>
+
+    <!-- PIEZA 2 — REEL TÉCNICO -->
+    <div class="pieza">
+      <div class="pieza-head">
+        <div class="pieza-num">02</div>
+        <div><h3>Reel técnico — La versión racional</h3><span class="chan">Reel B · LinkedIn · ritmo técnico, directo</span></div>
+      </div>
+      <div class="pieza-body">
+        <div class="pieza-row"><div class="lbl">Objetivo</div><div class="val">Convertir. Es la pieza de decisión: misma historia que el Reel A pero en clave racional, enfocada en resultado. Le habla al director industrial que ya se identificó y ahora evalúa "¿esta gente puede resolver lo mío?".</div></div>
+        <div class="pieza-row"><div class="lbl">Concepto creativo</div><div class="val"><strong>"Hay proyectos que necesitan más que un proveedor."</strong> Estructura de argumento, no de emoción. Frases cortas, afirmativas, encadenadas como un razonamiento. Quita el adorno y deja el proceso: problema → análisis → desarrollo → resultado.</div></div>
+        <div class="pieza-row"><div class="lbl">Formato</div><div class="val">Reel/video LinkedIn 9:16 o 1:1, ~30–40 seg. Edición seca, cortes a tiempo, secuencia rápida de 2 seg en los procesos. Cierre con marca Polimetal sola (no co-branding) para fijar autoría del resultado.</div></div>
+        <div class="pieza-row">
+          <div class="lbl">Guion (clips)</div>
+          <div class="val">
+            <ol class="guion">
+              <li><b>Hay proyectos que necesitan más que un proveedor.</b></li>
+              <li><b>Necesitan a alguien que ayude a resolverlos.</b></li>
+              <li><b>Así empezó la relación entre Basani y Polimetal.</b></li>
+              <li><b>El objetivo: crear módulos de oficinas móviles preparados para producir a escala.</b></li>
+              <li><b>Plegados complejos. Tubos perforados. Piezas pensadas para ensamblar rápido y bien.</b></li>
+              <li><b>Entonces empezó el verdadero trabajo: probar, ajustar y desarrollar soluciones.</b></li>
+              <li><b>Primero prototipos → pre-series → producción sostenida.</b> <span class="t">secuencia rápida 2s c/u</span></li>
+              <li><b>Múltiples procesos de Polimetal forman parte de la fabricación de Basani.</b></li>
+              <li><b>Cuando la industria trabaja en conjunto, los proyectos crecen.</b></li>
+              <li><b>Alianzas que impulsan producción. Polimetal.</b> <span class="t">cierre · solo marca Polimetal</span></li>
+            </ol>
+          </div>
+        </div>
+        <div class="pieza-row"><div class="lbl">Copy publicación</div><div class="val">
+          <div class="copybox">Las mejores soluciones industriales no aparecen de un día para otro.
+Se construyen con trabajo conjunto, desarrollo técnico y muchas horas buscando la mejor manera de producir mejor.
+
+Eso fue lo que pasó entre Basani y Polimetal: una alianza pensada para transformar un desafío técnico en un proyecto real, escalable y sostenible.
+
+Cuando las empresas trabajan en conjunto, los proyectos avanzan más lejos.
+<span class="hash">#Polimetal #IndustriaArgentina #ProducciónIndustrial #MetalMecánica #FabricaciónIndustrial #CorteLáser</span></div>
+          <div class="tip">Tip LinkedIn: cerrar con una pregunta o invitación a comentar — "¿Tu empresa enfrenta desafíos similares?" — aumenta el alcance orgánico.</div>
+        </div></div>
+        <div class="pieza-row"><div class="lbl">Recomendaciones visuales</div><div class="val">Estética más sobria y técnica que el Reel A: menos música, más sonido de planta. Tipografía de datos al frente. Mostrar precisión (mediciones, tolerancias visuales, repetición de piezas idénticas) como prueba de capacidad. Color de marca solo en placas y remates.</div></div>
+      </div>
+    </div>
+
+    <!-- PIEZA 3 — CARRUSEL LINKEDIN -->
+    <div class="pieza">
+      <div class="pieza-head">
+        <div class="pieza-num">03</div>
+        <div><h3>Carrusel LinkedIn — La historia en 8 placas</h3><span class="chan">LinkedIn · documento/carrusel deslizable</span></div>
+      </div>
+      <div class="pieza-body">
+        <div class="pieza-row"><div class="lbl">Objetivo</div><div class="val">Formato de autoridad y permanencia. El carrusel se consume sin sonido, se guarda y se comparte. Sintetiza el caso en una secuencia lógica que cualquier decisor puede recorrer en 20 segundos y entender el modelo de trabajo.</div></div>
+        <div class="pieza-row"><div class="lbl">Concepto creativo</div><div class="val"><strong>"De un problema a una capacidad."</strong> Cada placa avanza un paso del arco. Diseño editorial limpio, una idea por slide, jerarquía tipográfica fuerte. La última placa es la tesis del caso, no un CTA agresivo.</div></div>
+        <div class="pieza-row"><div class="lbl">Formato</div><div class="val">8 placas 1080×1350 (4:5) o 1:1. Sistema visual consistente: numeración, color de marca, un dato/idea por placa. Portada con gancho, contraportada con marca Polimetal.</div></div>
+        <div class="pieza-row">
+          <div class="lbl">Secuencia de placas</div>
+          <div class="val">
+            <ol class="guion">
+              <li><b>Basani necesitaba producir módulos industrializados.</b> <span class="t">portada · el problema</span></li>
+              <li><b>El diseño estaba resuelto. La fabricación escalable no.</b></li>
+              <li><b>Polimetal analizó el proyecto.</b></li>
+              <li><b>Se desarrollaron prototipos. Se optimizaron piezas y procesos.</b></li>
+              <li><b>Llegaron las pre-series.</b></li>
+              <li><b>Se consolidó la producción.</b></li>
+              <li><b>Resultado: capacidad de crecimiento.</b></li>
+              <li><b>Cuando la industria trabaja en conjunto, los proyectos escalan.</b> <span class="t">cierre · marca Polimetal</span></li>
+            </ol>
+          </div>
+        </div>
+        <div class="pieza-row"><div class="lbl">Recomendaciones visuales</div><div class="val">Tratamiento tipo "white paper visual": fondo oscuro o claro consistente, mucho aire, foto de proceso a sangre en placas alternas. Que el dato clave de cada placa sea legible en miniatura. Coherencia absoluta de grilla entre slides.</div></div>
+      </div>
+    </div>
+
+    <!-- PIEZA 4 — VIDEO TESTIMONIAL -->
+    <div class="pieza">
+      <div class="pieza-head">
+        <div class="pieza-num">04</div>
+        <div><h3>Video testimonial — La voz del cliente</h3><span class="chan">Instagram + LinkedIn · entrevista editada</span></div>
+      </div>
+      <div class="pieza-body">
+        <div class="pieza-row"><div class="lbl">Objetivo</div><div class="val">Prueba social máxima. Que sea Basani —no Polimetal— quien afirme el valor de la alianza. El testimonio cierra el caso con credibilidad: el cliente cuenta su propio crecimiento. Es la pieza que convierte la narrativa en evidencia.</div></div>
+        <div class="pieza-row"><div class="lbl">Concepto creativo</div><div class="val"><strong>"Que lo cuente quien lo vivió."</strong> Entrevista honesta, sin guion forzado. Polimetal aparece nombrado por el cliente, no autopromocionado. El montaje sigue el arco de 3 actos para que el testimonio tenga estructura narrativa, no sea una lista de elogios.</div></div>
+        <div class="pieza-row"><div class="lbl">Formato</div><div class="val">Video entrevista 60–90 seg para feed + cortes verticales para reels/stories. Cámara fija + apoyos de planta (B-roll). Subtítulos quemados. Pregunta clave reservada para el cierre.</div></div>
+        <div class="pieza-row"><div class="lbl">Pregunta clave de cierre</div><div class="val"><span class="serif-italic" style="font-size:19px">"Si tuvieran que resumir en una frase qué aportó Polimetal al crecimiento de Basani, ¿qué dirían?"</span></div></div>
+        <div class="pieza-row">
+          <div class="lbl">Banco de preguntas</div>
+          <div class="val">
+            <div class="grid-2" style="gap:18px">
+              <div><strong style="color:var(--cyan);font-size:13px">1 · El origen</strong><p style="font-size:13px;margin-top:4px">¿Cómo conocieron a Polimetal? ¿Qué buscaban resolver? ¿Qué los llevó a avanzar? ¿Cómo era Basani al inicio?</p></div>
+              <div><strong style="color:var(--cyan);font-size:13px">2 · El desafío</strong><p style="font-size:13px;margin-top:4px">¿Qué querían lograr? ¿Cuál era el principal obstáculo? ¿Qué limitaciones tenían para fabricar los módulos? ¿Por qué era tan importante resolverlo?</p></div>
+              <div><strong style="color:var(--cyan);font-size:13px">3 · El trabajo conjunto</strong><p style="font-size:13px;margin-top:4px">¿Cómo fue el desarrollo entre ambas empresas? ¿Qué recuerdan de las primeras reuniones técnicas? ¿Qué valor tuvo un equipo técnico involucrado?</p></div>
+              <div><strong style="color:var(--cyan);font-size:13px">4 · El resultado</strong><p style="font-size:13px;margin-top:4px">¿Qué cambió al industrializar el proceso? ¿Qué mejoras en tiempos y calidad? ¿Qué impacto tuvo en el crecimiento? ¿Qué pudieron hacer que antes era imposible?</p></div>
+              <div><strong style="color:var(--cyan);font-size:13px">5 · La relación</strong><p style="font-size:13px;margin-top:4px">¿Qué significa trabajar con Polimetal? ¿Qué diferencia con un proveedor tradicional? ¿Por qué siguen trabajando juntos hoy?</p></div>
+              <div><strong style="color:var(--cyan);font-size:13px">6 · El futuro</strong><p style="font-size:13px;margin-top:4px">¿Cómo imaginan el crecimiento de Basani? ¿Qué nuevos desafíos aparecen? ¿Qué importancia tienen los socios estratégicos?</p></div>
+            </div>
+            <div class="tip">Para anécdotas (oro editorial): "¿Te acordás del día que dijiste 'esto no va a funcionar'?" · "¿Cuándo sentiste que finalmente habían encontrado la solución?" · "¿Qué cambió en el día a día de la fábrica después de implementarlo?"</div>
+          </div>
+        </div>
+        <div class="pieza-row"><div class="lbl">Recomendaciones visuales</div><div class="val">Luz natural, entorno real de planta/oficina Basani. Encuadre a la altura de los ojos, fondo con profundidad de campo. Intercalar el testimonio con B-roll de los procesos que se mencionan. Que la frase de cierre quede sola, con aire, sobre placa de marca.</div></div>
+      </div>
+    </div>
+
+    <!-- PIEZA 5 — ARTÍCULO LINKEDIN -->
+    <div class="pieza">
+      <div class="pieza-head">
+        <div class="pieza-num">05</div>
+        <div><h3>Artículo LinkedIn — El caso en profundidad</h3><span class="chan">LinkedIn · artículo / publicación larga</span></div>
+      </div>
+      <div class="pieza-body">
+        <div class="pieza-row"><div class="lbl">Objetivo</div><div class="val">Contenido de autoridad y SEO de marca. La versión larga y técnica del caso: el activo que queda, se indexa, se comparte en cadenas comerciales y respalda al equipo de ventas de Polimetal frente a un prospecto.</div></div>
+        <div class="pieza-row"><div class="lbl">Concepto creativo</div><div class="val"><strong>"Anatomía de una alianza industrial."</strong> Estructura de caso de negocio: contexto → desafío técnico → enfoque de Polimetal → proceso de desarrollo → resultados → aprendizaje replicable. Tono técnico pero legible, con la tesis emocional como hilo conductor.</div></div>
+        <div class="pieza-row"><div class="lbl">Formato</div><div class="val">Artículo de 700–1.000 palabras con subtítulos, una imagen de proceso por bloque y un cierre con invitación a la conversación. Estructura escaneable: negritas en los hitos, datos destacados.</div></div>
+        <div class="pieza-row">
+          <div class="lbl">Estructura sugerida</div>
+          <div class="val">
+            <ol class="guion">
+              <li><b>Titular:</b> "Cómo industrializar una idea: el caso Basani × Polimetal."</li>
+              <li><b>El punto de partida:</b> Basani, un producto validado y un techo de producción.</li>
+              <li><b>El desafío real:</b> no diseñar, sino fabricar cientos de veces con calidad, precisión y rentabilidad.</li>
+              <li><b>Por qué Polimetal:</b> de la recomendación al primer análisis técnico.</li>
+              <li><b>El proceso:</b> prototipos, optimización de piezas, plegados complejos, tubos, corte láser.</li>
+              <li><b>El resultado:</b> pre-series → producción sostenida → capacidad de crecimiento.</li>
+              <li><b>La lectura:</b> qué hace distinta a una alianza de un contrato de proveeduría.</li>
+              <li><b>Cierre:</b> "¿Tu empresa enfrenta un desafío de producción a escala? Hablemos."</li>
+            </ol>
+          </div>
+        </div>
+        <div class="pieza-row"><div class="lbl">Recomendaciones visuales</div><div class="val">Imagen de portada con tratamiento de marca y el tagline fuerte. Fotos de proceso reales por sección. Un recuadro/cita destacada con el mensaje central. Cierre con firma visual de Polimetal.</div></div>
+      </div>
+    </div>
+
+    <!-- PIEZA 6 — STORIES -->
+    <div class="pieza">
+      <div class="pieza-head">
+        <div class="pieza-num">06</div>
+        <div><h3>Stories complementarias — La serie didáctica</h3><span class="chan">Instagram · serie de 3–4 stories</span></div>
+      </div>
+      <div class="pieza-body">
+        <div class="pieza-row"><div class="lbl">Objetivo</div><div class="val">Mantener viva la conversación entre piezas grandes y aportar contexto técnico de forma liviana. Las stories nutren a la audiencia, generan interacción (stickers de pregunta/encuesta) y dirigen tráfico al reel o al artículo.</div></div>
+        <div class="pieza-row"><div class="lbl">Concepto creativo</div><div class="val"><strong>"¿Sabías que…?"</strong> Formato pregunta/respuesta que traduce el caso a microaprendizajes: cada story revela un dato del proceso que sostiene el relato (qué es industrializar, qué resuelve el corte láser, qué cambia entre prototipo y pre-serie).</div></div>
+        <div class="pieza-row"><div class="lbl">Formato</div><div class="val">3–4 stories verticales 9:16 encadenadas. Sticker de pregunta o encuesta en la primera, respuesta visual en la siguiente. CTA "Mirá el caso completo" con link/stickers al reel. Diseño con plantilla de marca reutilizable.</div></div>
+        <div class="pieza-row">
+          <div class="lbl">Serie sugerida</div>
+          <div class="val">
+            <ol class="guion">
+              <li><b>¿Sabías que industrializar no es solo fabricar?</b> <span class="t">apertura + sticker pregunta</span></li>
+              <li><b>Es lograr producir cientos de veces lo mismo, con calidad y rentabilidad.</b> <span class="t">respuesta</span></li>
+              <li><b>Por eso Basani buscó un socio, no un proveedor.</b> <span class="t">puente al caso</span></li>
+              <li><b>Mirá cómo lo resolvimos juntos →</b> <span class="t">CTA al reel principal</span></li>
+            </ol>
+          </div>
+        </div>
+        <div class="pieza-row"><div class="lbl">Recomendaciones visuales</div><div class="val">Plantilla de stories con la grilla de marca, tipografía grande y legible en movimiento, un solo concepto por placa. Usar fragmentos del B-roll del reel para coherencia visual y eficiencia de producción.</div></div>
+      </div>
+    </div>
+
+    <!-- PIEZA 7 — PRUEBA SOCIAL -->
+    <div class="pieza">
+      <div class="pieza-head">
+        <div class="pieza-num">07</div>
+        <div><h3>Piezas de prueba social — Cita + amplificación</h3><span class="chan">Instagram + LinkedIn · estáticos y co-marketing</span></div>
+      </div>
+      <div class="pieza-body">
+        <div class="pieza-row"><div class="lbl">Objetivo</div><div class="val">Capitalizar el testimonio y multiplicar el alcance. Dos frentes: (a) la cita destacada como pieza estática que condensa el caso en una imagen compartible; (b) el repost coordinado de Basani, que aporta validación cruzada y duplica audiencia cualificada.</div></div>
+        <div class="pieza-row"><div class="lbl">Concepto creativo</div><div class="val"><strong>"La frase que lo resume todo."</strong> La cita potente del testimonio se diseña como pieza autónoma — funciona suelta, sin contexto, y aun así comunica la tesis. El repost convierte al cliente en vocero: la mejor prueba social es que el otro la cuente.</div></div>
+        <div class="pieza-row"><div class="lbl">Formato</div><div class="val">Placa estática 1:1 y 4:5 con la cita, atribución y ambos logos. Versión story 9:16. Kit de repost para Basani (pieza + copy sugerido) para publicar en sus propias redes.</div></div>
+        <div class="pieza-row">
+          <div class="lbl">Piezas</div>
+          <div class="val">
+            <div class="ps-grid">
+              <div class="quote-card">
+                <div class="mark">"</div>
+                <p class="q">La frase más potente del testimonio, en placa estática para ambas plataformas.</p>
+                <p class="a">— Voz de Basani · con logos Basani + Polimetal</p>
+              </div>
+              <div class="card" style="background:rgba(255,255,255,0.04)">
+                <span class="ic">🔁</span>
+                <h3>Repost de Basani</h3>
+                <p>Coordinar con Basani para que comparta el caso en sus propias redes. Entregarle el material listo y un copy sugerido. La validación del cliente vale más que cualquier autopromoción y abre su red de contactos del sector.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pieza-row"><div class="lbl">Recomendaciones visuales</div><div class="val">Tipografía serif italic de marca para la cita (coherente con el sistema de la propuesta). Máximo contraste y aire para legibilidad en feed. Co-branding equilibrado: ninguna marca por encima de la otra — refuerza el mensaje de alianza entre iguales.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLAN DE PUBLICACIÓN ============ -->
+<section id="plan" class="section section-light">
+  <div class="container">
+    <div class="section-header">
+      <span class="sec-index">06 — Plan de publicación</span>
+      <span class="eyebrow">El caso, dosificado en 4 semanas</span>
+      <h2>Un arco de cuatro tiempos:<br>apertura, autoridad, conversión, prueba.</h2>
+      <p>El orden no es estético: es estratégico. Cada semana cumple una función del embudo y prepara la siguiente. Se abre con emoción, se construye autoridad, se baja a la decisión y se cierra con la voz del cliente.</p>
+    </div>
+
+    <div class="cal-grid">
+      <div class="cal-week w1">
+        <div class="wk">Semana 1</div>
+        <div class="fase">Apertura</div>
+        <div class="pieza-t">Reel A — principal</div>
+        <div class="chan-t">Instagram + LinkedIn</div>
+        <p>Lanzamiento del caso. Versión emocional, gancho narrativo fuerte. Instala la historia y la premisa de la alianza.</p>
+      </div>
+      <div class="cal-week w2">
+        <div class="wk">Semana 2</div>
+        <div class="fase">Autoridad</div>
+        <div class="pieza-t">Carrusel técnico</div>
+        <div class="chan-t">LinkedIn</div>
+        <p>Procesos Polimetal involucrados: corte láser, plegado CNC, corte de tubos. Demuestra capacidad sin tecnicismo excesivo.</p>
+      </div>
+      <div class="cal-week w3">
+        <div class="wk">Semana 3</div>
+        <div class="fase">Conversión</div>
+        <div class="pieza-t">Reel B — técnico</div>
+        <div class="chan-t">LinkedIn</div>
+        <p>Versión racional y directa. Ritmo técnico, enfocado en resultado. Le habla al decisor listo para evaluar.</p>
+      </div>
+      <div class="cal-week w4">
+        <div class="wk">Semana 4</div>
+        <div class="fase">Prueba social</div>
+        <div class="pieza-t">Video testimonio</div>
+        <div class="chan-t">Instagram + LinkedIn</div>
+        <p>Basani responde la pregunta clave. Cierre del caso con la voz del cliente: la evidencia que lo valida todo.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:36px" class="grid-2">
+      <div class="card-light">
+        <h3>Piezas complementarias (transversales)</h3>
+        <p style="margin-top:10px"><strong>Cita destacada:</strong> frase potente del testimonio como imagen estática en ambas plataformas.<br><br><strong>Artículo LinkedIn:</strong> versión larga y técnica del caso. Contenido de autoridad permanente.<br><br><strong>Serie de stories:</strong> 3–4 stories formato "¿sabías que…?" para sostener interacción entre semanas.<br><br><strong>Repost de Basani:</strong> coordinar para que comparta en sus propias redes y amplifique a su red del sector.</p>
+      </div>
+      <div class="card-light">
+        <h3>Lógica del orden de salida</h3>
+        <p style="margin-top:10px">Primero <strong>identificación</strong> (que el problema resuene), luego <strong>credibilidad</strong> (que la capacidad sea creíble), después <strong>argumento de decisión</strong> (que la elección sea fácil) y al final <strong>validación externa</strong> (que lo confirme el cliente). Las complementarias se intercalan para sostener presencia sin saturar: idealmente 2 impactos por semana por canal. El testimonio se reserva para el cierre porque su valor depende de que la audiencia ya conozca la historia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RECOMENDACIONES CREATIVAS ============ -->
+<section id="recomendaciones" class="section section-purple-deep">
+  <div class="container">
+    <div class="section-header">
+      <span class="sec-index" style="color:rgba(255,255,255,0.35)">07 — Recomendaciones creativas</span>
+      <span class="eyebrow">El estándar de producción</span>
+      <h2 style="color:#fff">Cómo se ve y se siente<br>esta historia.</h2>
+      <p>Lineamientos para que la ejecución sostenga el nivel del concepto. La industria pesada se comunica mejor cuando se la trata con sensibilidad cinematográfica: el contraste entre la dureza del metal y la calidez del vínculo humano es el corazón visual del caso.</p>
+    </div>
+
+    <div class="rec-grid">
+      <div class="rec-card">
+        <h4>🎬 Sugerencias audiovisuales</h4>
+        <ul>
+          <li>Privilegiar material real de planta Polimetal y Basani por sobre stock; el stock solo como conector.</li>
+          <li>Sonido de planta real (corte, plegado, máquina) como capa emocional: la industria suena, no es muda.</li>
+          <li>Música in crescendo en el reel emocional; sobria y rítmica en el técnico.</li>
+          <li>Co-branding equilibrado: ambas marcas como iguales, nunca una subordinada a la otra.</li>
+        </ul>
+      </div>
+      <div class="rec-card">
+        <h4>📖 Recursos narrativos</h4>
+        <ul>
+          <li>Estructura de 3 actos como columna vertebral de toda pieza con duración.</li>
+          <li>Tensión antes de la resolución: mostrar el problema sin apuro para que el logro pese.</li>
+          <li>"Nosotros" en lugar de "ellos": el relato en primera persona de la alianza.</li>
+          <li>Cerrar con idea, no con venta: la tesis ("crecimiento en conjunto") por encima del CTA duro.</li>
+        </ul>
+      </div>
+      <div class="rec-card">
+        <h4>🎥 Tipos de tomas</h4>
+        <ul>
+          <li>Planos detalle de proceso: chispa del láser, pliegue del metal, perforación del tubo — la textura del oficio.</li>
+          <li>Planos de la repetición: muchas piezas idénticas = prueba visual de industrialización.</li>
+          <li>Planos humanos: manos, miradas, equipo técnico trabajando — humanizar la planta.</li>
+          <li>Plano de contexto: módulos Basani terminados — el resultado tangible del trabajo.</li>
+          <li>Time-lapse de prototipo a pre-serie para comprimir el "desarrollo conjunto".</li>
+        </ul>
+      </div>
+      <div class="rec-card">
+        <h4>✂️ Estilo de edición</h4>
+        <ul>
+          <li>Ritmo lento → acelerado en el reel emocional; cortes secos y a tiempo en el técnico.</li>
+          <li>Entradas de texto sincronizadas con el beat; "cada ítem entra solo" en la enumeración de procesos.</li>
+          <li>Subtítulos quemados siempre (consumo sin sonido).</li>
+          <li>Respiración final: un segundo de aire antes de la placa de cierre para que el mensaje asiente.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="rec-card" style="margin-top:20px">
+      <h4>🎨 Tratamiento visual</h4>
+      <ul>
+        <li>Sistema gráfico consistente con la identidad de marca en todas las piezas: tipografía, placas, numeración y remates unificados.</li>
+        <li>Acentos de color de marca sobre la paleta industrial cálida (metal, chispa, naturalidad de planta) — el color aparece en placas y datos, no tiñe la imagen real.</li>
+        <li>Tipografía con jerarquía fuerte: titular contundente, dato legible en miniatura, serif italic reservada para frases con carga emocional.</li>
+        <li>Coherencia absoluta de grilla entre carrusel, stories y placas de cita: que todo se lea como un mismo cuerpo de campaña.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CIERRE ============ -->
+<section id="cierre" class="section section-dark">
+  <div class="container narrow" style="text-align:center;margin-left:auto;margin-right:auto">
+    <span class="sec-index">08 — Cierre</span>
+    <span class="eyebrow">Por qué vale la pena contar esto</span>
+    <h2 style="max-width:760px;margin:0 auto 18px">No estamos contando un trabajo.<br>Estamos demostrando una <span class="serif-italic">forma de trabajar.</span></h2>
+    <p class="lead" style="max-width:680px;margin:0 auto 8px">El caso Basani no es un portfolio: es la prueba pública de que Polimetal piensa con el cliente, resuelve lo que otros no pueden y se vuelve parte de su crecimiento. Comunicarlo bien convierte una historia real en el mejor argumento comercial que la marca puede tener.</p>
+  </div>
+
+  <div class="container" style="margin-top:48px">
+    <div class="callout" style="text-align:center">
+      <p style="font-size:22px">"No es una historia de proveedor y cliente.<br><strong>Es una historia de dos empresas que trabajaron juntas para crecer."</strong></p>
+    </div>
+
+    <span class="eyebrow" style="display:block;text-align:center;margin-top:56px;margin-bottom:24px">Impacto esperado para la marca</span>
+    <div class="impact-grid">
+      <div class="impact i1">
+        <span class="ic">🤝</span>
+        <h4>Reposicionamiento</h4>
+        <p>Polimetal pasa de "taller metalmecánico" a socio estratégico de la industria en la percepción del decisor.</p>
+      </div>
+      <div class="impact i2">
+        <span class="ic">🏆</span>
+        <h4>Autoridad</h4>
+        <p>Un caso documentado y verificable que respalda al equipo comercial frente a cada nuevo prospecto.</p>
+      </div>
+      <div class="impact i3">
+        <span class="ic">🧲</span>
+        <h4>Leads cualificados</h4>
+        <p>Prospectos que llegan ya identificados con el problema y convencidos del modelo de trabajo.</p>
+      </div>
+      <div class="impact i4">
+        <span class="ic">📈</span>
+        <h4>Activo reutilizable</h4>
+        <p>Un sistema de piezas que sirve para redes, ventas, web y presentaciones mucho más allá de las 4 semanas.</p>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:56px">
+      <a href="#piezas" class="btn btn-cyan" style="font-size:16px;padding:16px 32px">Volver a las piezas &rarr;</a>
+      <p style="margin-top:18px;font-size:13px;color:var(--gray-500)">Propuesta de contenidos · Caso de éxito Polimetal × Basani · Preparada por Popcorn</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-logo">
+        <div class="logo" role="img" aria-label="Popcorn"></div>
+        <p>Agencia de marketing digital y producción audiovisual · Buenos Aires. Estrategia, diseño, producción y paid media para la industria.</p>
+      </div>
+      <div class="footer-contact">
+        <div class="label">Contacto</div>
+        <div class="email">svicente@somospopcorn.com</div>
+        <div class="who">Popcorn · Estrategia de contenidos B2B industrial</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
